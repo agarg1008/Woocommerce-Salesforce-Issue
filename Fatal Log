@@ -1,0 +1,8 @@
+2024-05-04T11:16:26+00:00 CRITICAL Uncaught Error: Call to undefined method vxc_sales::get_booking_ids_from_order_item_id() in /home/winetoursofkent/public_html/--staging100/wp-content/plugins/woo-salesforce-crm-perks-pro/woo-salesforce-crm-perks-pro.php:1907
+Stack trace:
+#0 /home/winetoursofkent/public_html/--staging100/wp-content/plugins/woo-salesforce-crm-perks-pro/woo-salesforce-crm-perks-pro.php(1602): vxc_sales->get_field_val(Array, Object(WC_Order_Item_Product))
+#1 /home/winetoursofkent/public_html/--staging100/wp-content/plugins/woo-salesforce-crm-perks-pro/woo-salesforce-crm-perks-pro.php(375): vxc_sales->push(15818, 'submit')
+#2 /home/winetoursofkent/public_html/--staging100/wp-includes/class-wp-hook.php(288): vxc_sales->order_submit(15818)
+#3 /home/winetoursofkent/public_html/--staging100/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#4 /home/winetoursofkent/public_html/--staging100/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#5 /home/winetoursofkent/public_html/--staging100/wp-content/plugins/wooc in /home/winetoursofkent/public_html/--staging100/wp-content/plugins/woo-salesforce-crm-perks-pro/woo-salesforce-crm-perks-pro.php on line 1907
